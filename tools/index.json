@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generatedAt": "2026-07-07T14:27:48.087Z",
+  "generatedAt": "2026-07-07T15:29:44.030Z",
   "tools": [
     {
       "id": "color-block",
@@ -4829,7 +4829,7 @@
       "height": 1280,
       "exportable": true,
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z\"/><path d=\"m3.3 7 8.7 5 8.7-5\"/><path d=\"M12 22V12\"/></svg>",
-      "preview": "/catalog/previews/3d.webp",
+      "preview": "/tools/3d/card.svg",
       "examples": [
         {
           "label": "Animated",
