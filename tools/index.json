@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generatedAt": "2026-07-07T09:39:37.286Z",
+  "generatedAt": "2026-07-07T11:34:31.504Z",
   "tools": [
     {
       "id": "color-block",
@@ -4809,6 +4809,62 @@
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M8 6v12\"/><path d=\"M16 6v12\"/><circle cx=\"12\" cy=\"12\" r=\"2.4\" fill=\"currentColor\" stroke=\"none\"/></svg>",
       "preview": "/tools/record/card.svg",
       "paged": true
+    },
+    {
+      "id": "3d",
+      "name": "3D",
+      "description": "Load a 3D model into a lit scene, orbit and pose the camera, and render a still or a looping turntable.",
+      "version": "1.0.0",
+      "status": "experimental",
+      "category": "designer",
+      "formats": [
+        "png",
+        "jpg",
+        "webp",
+        "webm",
+        "mp4",
+        "gif"
+      ],
+      "width": 1280,
+      "height": 1280,
+      "exportable": true,
+      "preview": "/catalog/previews/3d.webp",
+      "examples": [
+        {
+          "label": "Animated",
+          "theme": "dark",
+          "values": {
+            "model": "sample-1",
+            "scene": "natural",
+            "cameraMove": "orbit"
+          }
+        },
+        {
+          "label": "Studio",
+          "theme": "light",
+          "values": {
+            "model": "sample-2",
+            "scene": "bright-studio",
+            "cameraMove": "static",
+            "camera": {
+              "fov": 40,
+              "rotation": 25,
+              "tilt": 10,
+              "zoom": 1,
+              "pan": 0
+            }
+          }
+        },
+        {
+          "label": "SUSE green",
+          "theme": "dark",
+          "values": {
+            "model": "sample-3",
+            "scene": "suse-green",
+            "cameraMove": "arc"
+          }
+        }
+      ]
     }
   ]
 }
